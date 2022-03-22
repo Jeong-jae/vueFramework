@@ -1,16 +1,19 @@
 <template>
 	<div>
-		<HelloWorld msg="Welcome to Your Vue.js App" />
+		<HelloWorld></HelloWorld>
+		<testComponent></testComponent>
 	</div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
+import testComponent from './components/testComponent.vue';
 
 export default {
 	name: 'App',
 	components: {
 		HelloWorld,
+		testComponent,
 	},
 };
 </script>
